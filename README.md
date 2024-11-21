@@ -1,6 +1,6 @@
 # Redirecionador de URLs
 
-### Este projeto é um dos serviços que compõem o encutador de URLs. Este é o serviço que faz o redirecionamento das URLs encurtadas para as URLs originais.
+#### Este projeto é um dos serviços que compõem o encutador de URLs. Este é o serviço que faz o redirecionamento das URLs encurtadas para as URLs originais.
 
 ## Tecnologias Utilizadas
 - Java 17
