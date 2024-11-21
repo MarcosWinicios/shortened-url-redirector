@@ -21,7 +21,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Obj
 
         String shortUrlCode = pathParameters.replace("/", "");
 
-        if(shortUrlCode == null || shortUrlCode.isEmpty()){
+        if(shortUrlCode.isEmpty()){
             throw new IllegalArgumentException("Invalid input: 'shortUrlCode' is required.");
         }
 
@@ -47,7 +47,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Obj
             throw new RuntimeException("Error deserializing URL data: " + e.getMessage());
         }
 
-        long currentTimeInSeconds = System.currentTimeMillis() /1000;
+        long currentTimeInSeconds = System.currentTimeMillis() / 1000;
 
         Map<String, Object> response = new HashMap<>();
 
