@@ -26,7 +26,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Obj
         }
 
         GetObjectRequest getObjectRequest = GetObjectRequest.builder()
-                .bucket("mw-url-shortener-storage")
+                .bucket("bucket-url-shortener-storage")
                 .key(shortUrlCode + ".json")
                 .build();
 
