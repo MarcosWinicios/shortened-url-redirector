@@ -36,6 +36,9 @@ https://6dsal8smxc.execute-api.us-east-2.amazonaws.com/{urlCode}
     "code": "554bec03"
 }
 ```
+## Diagram
+
+![diagram](docs/diagram.png)
 
 ## Projetos relacionados
 - [Gerador de URLs](https://github.com/url-shortener-project/url-shortener-generator)
